@@ -1,6 +1,6 @@
 #include "TPL0501.h"
 
-TPL0501 tpl = nullptr;
+TPL0501* tpl = nullptr;
 
 void setup() {
   // put your setup code here, to run once:
