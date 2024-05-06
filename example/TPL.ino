@@ -15,7 +15,7 @@ void loop() {
     cnt += 4;
     Serial.println(cnt);
     Serial.println(cnt * 3.3 / 255.0 );
-    tpl.setResistor(tpl, cnt);
+    tpl->setResistor(tpl, cnt);
     while (!Serial.available());
     Serial.read();
 }
